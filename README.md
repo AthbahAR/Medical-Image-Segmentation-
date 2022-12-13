@@ -15,10 +15,10 @@ For this purpose, this project aim to detect the polyps using U-Net model. The U
 
 ### Dataset
 Kvasir-seg is an open-access dataset for gastrointestinal polyp images and corresponding segmentation ground truth, manually labeled and verified by an experienced gastroenterologist.
-The Kvasir-SEG dataset contains 1000 polyp images and their corresponding ground truth.
-The resolution of the images contained in Kvasir-SEG varies from 332x487 to 1920x1072 pixels.
-The images and its corresponding masks are stored in two separate folders with the same filename.
-The image files are encoded using JPEG compression.
+* The Kvasir-SEG dataset contains 1000 polyp images and their corresponding ground truth.
+* The resolution of the images contained in Kvasir-SEG varies from 332x487 to 1920x1072 pixels.
+* The images and its corresponding masks are stored in two separate folders with the same filename.
+* The image files are encoded using JPEG compression.
 
 You can find the dataset:
 * @inproceedings{jha2020kvasir, title={Kvasir-seg: A segmented polyp dataset}, author={Jha, Debesh and Smedsrud, Pia H and Riegler, Michael A and Halvorsen, P{\aa}l and de Lange, Thomas and Johansen, Dag and Johansen, H{\aa}vard D}, booktitle={International Conference on Multimedia Modeling}, pages={451--462}, year={2020}, organization={Springer} .
