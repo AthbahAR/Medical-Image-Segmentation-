@@ -12,11 +12,14 @@ Polyps are precursors to colorectal cancer, and are found in nearly half of the 
 * Keras
 
 ### Dataset
-Kvasir-seg is an open-access dataset for gastrointestinal polyp images and corresponding segmentation ground truth.
+Kvasir-seg is an open-access dataset for gastrointestinal polyp images and corresponding segmentation ground truth, manually labeled and verified by an experienced gastroenterologist.
 The Kvasir-SEG dataset contains 1000 polyp images and their corresponding ground truth.
+The resolution of the images contained in Kvasir-SEG varies from 332x487 to 1920x1072 pixels.
+The images and its corresponding masks are stored in two separate folders with the same filename.
+The image files are encoded using JPEG compression.
+
 You can find the dataset:
-•	@inproceedings{jha2020kvasir, title={Kvasir-seg: A segmented polyp dataset}, author={Jha, Debesh and Smedsrud, Pia H and Riegler, Michael A and Halvorsen, P{\aa}l and de Lange, Thomas and Johansen, Dag and Johansen, H{\aa}vard D}, booktitle={International Conference on Multimedia Modeling}, pages={451--462}, year={2020}, organization={Springer} .
-![image](https://user-images.githubusercontent.com/79464137/207323361-6d0dd807-df45-440c-8564-992188ea4028.png)
+* @inproceedings{jha2020kvasir, title={Kvasir-seg: A segmented polyp dataset}, author={Jha, Debesh and Smedsrud, Pia H and Riegler, Michael A and Halvorsen, P{\aa}l and de Lange, Thomas and Johansen, Dag and Johansen, H{\aa}vard D}, booktitle={International Conference on Multimedia Modeling}, pages={451--462}, year={2020}, organization={Springer} .
 
 ### Methodology
 The methodology has six steps:
@@ -25,9 +28,9 @@ The methodology has six steps:
 * Normalizing the images to [0, 1].
 * Splitting dataset into training, validating, and testing sets.
 * Applying data augmentation to the training set. 
-** Horizontal flipping.
-** Vertical flipping.
-** Mirroring.
+# Horizontal flipping.
+# Vertical flipping.
+# Mirroring.
 * Building the U-Net model.
 * Training the model using training and validating sets.
 * Testing the model with accuracy and Dice Coefficient measurements.
