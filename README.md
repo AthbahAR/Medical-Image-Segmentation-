@@ -20,15 +20,14 @@ You can find the dataset:
 
 ### Methodology
 The methodology has six steps:
-•	Reading and preprocessing dataset (Image and ground truth). 
-o	Resizing the height and width of images into 128X128 pixels.
-o	Normalizing the images to [0, 1].
-•	Splitting dataset into training, validating, and testing sets.
-•	Applying data augmentation to the training set. 
-o	Horizontal flipping.
-o	Vertical flipping.
-o	Mirroring.
-•	Building the U-Net model.
-•	Training the model using training and validating sets.
-•	Testing the model with accuracy and Dice Coefficient measurements.
-![image](https://user-images.githubusercontent.com/79464137/207323095-f418d1df-2dea-40ef-8c95-07da1aba2cd3.png)
+* Reading and preprocessing dataset (Image and ground truth). 
+** Resizing the height and width of images into 128X128 pixels.
+* Normalizing the images to [0, 1].
+* Splitting dataset into training, validating, and testing sets.
+* Applying data augmentation to the training set. 
+** Horizontal flipping.
+** Vertical flipping.
+** Mirroring.
+* Building the U-Net model.
+* Training the model using training and validating sets.
+* Testing the model with accuracy and Dice Coefficient measurements.
