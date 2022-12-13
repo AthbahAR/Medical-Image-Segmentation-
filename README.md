@@ -23,19 +23,6 @@ Kvasir-seg is an open-access dataset for gastrointestinal polyp images and corre
 You can find the dataset:
 * @inproceedings{jha2020kvasir, title={Kvasir-seg: A segmented polyp dataset}, author={Jha, Debesh and Smedsrud, Pia H and Riegler, Michael A and Halvorsen, P{\aa}l and de Lange, Thomas and Johansen, Dag and Johansen, H{\aa}vard D}, booktitle={International Conference on Multimedia Modeling}, pages={451--462}, year={2020}, organization={Springer} .
 
-### Methodology
-The methodology has six steps:
-1. Reading dataset.
-2. Splitting dataset into training, validating, and testing sets.
-3. Applying data augmentation to the training set.
-* Horizontal flipping.
-* Vertical flipping.
-* Mirroring.
-4. Preprocessing dataset. 
-* Normalizing the images to [0, 1].
-5. Building the U-Net model.
-6. Training the model using training and validating sets.
-7. Testing the model with accuracy and Dice Coefficient measurements.
 
 ### Resources
 * Ronneberger, O., Fischer, P. and Brox, T., 2015, October. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention (pp. 234-241). Springer, Cham.
