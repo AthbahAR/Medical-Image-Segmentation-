@@ -2,7 +2,7 @@
 
 Lesion Detection in Medical Images using Convolutional Neural Network (U-Net).
 
-This is the capstone project of MISK Data Science Immersive course.
+This is the capstone project of MISK Data Science program.
 After the artificial intelligence revolution, CNN’s models can detect lesions with superior performance which helps doctors with diagnosis. U-Net is one of the deep learning networks with an encoder-decoder architecture and is used in medical image segmentation.
 
 Polyps are precursors to colorectal cancer, and are found in nearly half of the individuals at age 50 having a screening colonoscopy, and are increasing with age. Colonoscopy is the gold standard for detecting and assessing these polyps with subsequent biopsy and removal of the polyps. Early disease detection has a huge impact on survival from colorectal cancer, and polyp detection is therefore important.
