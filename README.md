@@ -23,14 +23,21 @@ You can find the dataset:
 
 ### Methodology
 The methodology has six steps:
-* Reading and preprocessing dataset (Image and ground truth). 
-** Resizing the height and width of images into 128X128 pixels.
+1. Reading dataset.
+2. Splitting dataset into training, validating, and testing sets.
+3. Applying data augmentation to the training set.
+* Horizontal flipping.
+* Vertical flipping.
+* Mirroring.
+4. Preprocessing dataset. 
 * Normalizing the images to [0, 1].
-* Splitting dataset into training, validating, and testing sets.
-* Applying data augmentation to the training set. 
-# Horizontal flipping.
-# Vertical flipping.
-# Mirroring.
-* Building the U-Net model.
-* Training the model using training and validating sets.
-* Testing the model with accuracy and Dice Coefficient measurements.
+5. Building the U-Net model.
+6. Training the model using training and validating sets.
+7. Testing the model with accuracy and Dice Coefficient measurements.
+
+### Resources
+* Ronneberger, O., Fischer, P. and Brox, T., 2015, October. U-net: Convolutional networks for biomedical image segmentation. In International Conference on Medical image computing and computer-assisted intervention (pp. 234-241). Springer, Cham.
+* Yang, R., & Yu, Y. (2021). Artificial Convolutional Neural Network in Object Detection and Semantic Segmentation for Medical Imaging Analysis. Frontiers in Oncology, 11. https://doi.org/10.3389/fonc.2021.638182
+* https://github.com/bnsreenu/python_for_microscopists/blob/master/204-207simple_unet_model.py
+* Jha, D., Smedsrud, P.H., Riegler, M.A., Halvorsen, P., Lange, T.D., Johansen, D. and Johansen, H.D., 2020, January. Kvasir-seg: A segmented polyp dataset. In International Conference on Multimedia Modeling (pp. 451-462). Springer, Cham.
+![image](https://user-images.githubusercontent.com/79464137/207325542-16976f35-f7b2-46b7-8159-da01c68979a7.png
